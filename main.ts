@@ -1,4 +1,5 @@
 import "./style.scss";
+
 // import styles from "./example.module.css";
 import javascriptLogo from "./javascript.svg";
 import viteLogo from "/vite.svg";
@@ -11,7 +12,7 @@ document.querySelector("#app").innerHTML = `
       <img src="${viteLogo}" class="logo" alt="Vite logo" />
     </a>
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
+      <img src="/javascript.svg" class="logo vanilla" alt="JavaScript logo" />
     </a>
     <h1 class="">Hello Vite!!!</h1>
     <div class="card">
