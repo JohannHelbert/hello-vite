@@ -6,15 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "serve": "vite preview"
   },
   "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/compiler-sfc": "^3.4.27",
     "vite": "^5.2.0"
   },
   "dependencies": {
-    "lodash-es": "^4.17.21",
-    "postcss-nested": "^6.0.1",
-    "postcss-nesting": "^12.1.4",
-    "sass": "^1.77.2"
+    "sass": "^1.77.2",
+    "vue": "^3.4.27"
   }
 }
